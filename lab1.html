@@ -65,8 +65,6 @@
 			var camera, scene, renderer;
 			var controls;
 
-			var objects = [];
-
 			init();
 			animate();
 
@@ -94,7 +92,6 @@
 				var object = new THREE.CSS3DObject( element );
 					
 				scene.add( object );
-				objects.push( object );
 				
 				//
 				renderer = new THREE.CSS3DRenderer();
